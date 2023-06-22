@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import { version } from '$lib/version.js';
+</script>
+
+<main>
+	<div>Hello {version}</div>
+</main>
+
+<style>
+	:global(body) {
+		margin: 0;
+		padding: 0;
+	}
+
+	main {
+		padding: 20px;
+	}
+</style>
