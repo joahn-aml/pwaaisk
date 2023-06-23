@@ -1,0 +1,27 @@
+@import '@fontsource/poppins';
+@import '@fontsource/acme';
+
+:root {
+	--content-width: 600px;
+}
+
+html {
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overscroll-behavior-x: none;
+	overflow-y: scroll;
+}
+
+input,
+textarea,
+button {
+	font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+	background-color: #323232;
+}

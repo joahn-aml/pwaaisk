@@ -1,18 +1,17 @@
 <script>
-	import { version } from '$lib/version.js';
+	import Footer from '$lib/Footer.svelte';
+	import Questions from '$lib/Questions.svelte';
 </script>
 
 <main>
-	<div>Hello {version}</div>
+	<Questions />
+	<Footer />
 </main>
 
 <style>
-	:global(body) {
-		margin: 0;
-		padding: 0;
-	}
-
 	main {
 		padding: 20px;
+		max-width: var(--content-width);
+		margin: auto;
 	}
 </style>

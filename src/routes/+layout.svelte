@@ -1,16 +1,5 @@
 <script>
-	import '@fontsource/roboto';
+	import './styles.css';
 </script>
 
 <slot />
-
-<style>
-	:global(html) {
-		font-family: 'Roboto', sans-serif;
-	}
-
-	:global(body) {
-		margin: 0;
-		padding: 0;
-	}
-</style>
